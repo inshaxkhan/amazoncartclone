@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+                    <p class="add-sec">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All </option>
+                    <option>Amazon Skills </option>
+                    <option>Amazon  Devices</option>
+                    <option>Amazon Fashion</option>
+                </select>
+                    <input placeholder="Search Amazon" class="search-input"/>
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #0a1019;"></i>
+                    </div>    
+            </div>
+
+
+            <div class="lang border">
+                <img src="images/android-chrome-512x512.png" width="30px" height="25px">
+                <select style="background-color:black; border:none; color:white;">
+                    <option>EN</option>
+                    <option>TA</option>
+                    <option>ML</option>
+                </select>
+            </div>
+        
+         <div class="nav-signin border">
+            <p> <span> Hello, Sign in</span></p>
+            <p class="nav-sec"> Account & lists</p>
+         </div>
+
+        <div class="nav-signin border">
+             <p> <span> Returns</span></p>
+             <p class="nav-sec"> And orders</p>
+        </div>
+
+        <div class="nav-cart border">
+            <i class="fa-solid fa-cart-shopping" style="color: #f2f4f8;"></i>
+            Cart
+        </div>
+        
+    </div> 
+
+
+    <div class="panel">
+        <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+
+        <div class="panel-options">
+           
+            <p> Amazon miniTV</p>
+            <p> Sell</p>
+            <p> Best Sellers</p>
+            <p> Today's Deals</p>
+            <p> Mobiles</p>
+            <p> Customer service</p>
+            <p> Prime</p>
+            <p> Home & kitchen</p>
+            <p> Gift Ideas</p>
+            <p> New releases</p>
+            <p> Amazon pay</p>
+            <p> Computers</p>
+        </div>
+
+        <div class="panel-deals">
+          New launches from mobiles, Electronics & more | Shop now  
+        </div>
+    </div>
+
+    </header>
+
+
+
+    <div class="main">
+
+        <div class="left">
+            <div class="left-heading">
+                <p>Shopping Cart</p> 
+                <hr size="1px" width="95%" />
+            </div>
+            <div class="left-bottom">
+                <div class="left-img"></div>
+                <div class="left-content">
+               <p class="content-head"> Billebon Premium Neck Pillow Eye Mask Combo Airplane Travel Pillow with Comfortable Velvet Sleeping Eyemask Head Rest Pillow & 30 Years Warranty (Grey Neck Pillow with...</p>
+               <b>Rs.</b> <h4 id="rate" style="display:inline;">314</h4>
+                <br/>
+                <h4>3k+ bought in past month</h4>
+                In stock
+                <br/>
+                <br/>
+                Eligible for free shipping
+                <br/>
+                <div class="imgb"></div>
+                <br/>
+                <br/>
+                <br/>
+                
+                <input type="checkbox" value="clicked"/>
+               
+                &nbsp; &nbsp;This will be a gift <a style="text-decoration: none; color:rgb(13, 115, 117);" href="#">Learn More</a>
+                <br/>
+                <h4 style="display:inline;"> Colour:</h4> Grey Neck Pillow With Eye Mask <br/>
+                
+                <br/>
+                <div class="qty">
+                    <nav>
+                        <select id="quantity" onchange="qty()">Qty:
+                        <option value="0">Qty</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        </select>
+
+                 
+                        <a href="#">Delete  |</a>
+                        <a href="#">Save for Later  |</a>
+                        <a href="#">See more like this  |</a>
+                        <a href="#">Share</a>
+
+                    </nav>
+                </div>
+                    <br/>
+               
+            
+            </div>
+
+                
+            </div>
+            <hr size="1px" width="95%" />
+            <br/>
+            <div id="price-go-right" style="text-align:right;">
+            <b>Subtotal (<tx class="item-qty">1</tx> items): Rs. </b>
+                <h3 class="price" style="display:inline; ">314</h3>
+            </div>
+                <br/>
+        </div>
+
+        <div class="right">
+            <div class="right-one">
+                <b>Subtotal (<tx class="item-qty">1</tx> items): Rs. </b>
+                <h3 class="price" style="display:inline;">314</h3>
+                <br/>
+                <input type="checkbox" value="clicked"/>
+               
+                &nbsp; &nbsp;This order contains a gift 
+           <button>Proceed to checkout
+            
+           </button>
+           
+            </div>
+            <div class="right-two"></div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
